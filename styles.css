@@ -1,0 +1,131 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilo del contenedor principal */
+#main {
+    background-color: hsla(0, 2%, 92%, 0.856); /* Color de fondo con transparencia */
+    margin: 10px; /* Espacio exterior de 10px */
+    display: flex; /* Usar flexbox para el diseño */
+    flex-direction: column; /* Organizar elementos en columna */
+    text-align: center; /* Centrar el texto */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo del título principal */
+#title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Fuentes serif */
+    font-size: 50px; /* Tamaño de fuente */
+    font-weight: 800; /* Peso de fuente */
+    color: #0D0D0D; /* Color del texto */
+    padding: 25px 0 0 0; /* Espaciado interior superior */
+}
+
+/* Estilo de los encabezados secundarios dentro del contenedor principal */
+#main h2 {
+    font-size: 20px; /* Tamaño de fuente */
+    font-weight: 300; /* Peso de fuente */
+    color: #404040; /* Color del texto */
+    margin: 0 0 20px 0; /* Espaciado exterior */
+}
+
+/* Estilo del contenedor de la imagen */
+#img-div {
+    background-color: #fff; /* Color de fondo blanco */
+    margin: 15px; /* Espaciado exterior */
+    padding: 15px 0; /* Espaciado interior */
+}
+
+/* Estilo de la imagen */
+#image {
+    width: 90%; /* Ancho de la imagen */
+    height: auto; /* Altura automática */
+}
+
+/* Estilo del pie de foto de la imagen */
+#img-div > p {
+    margin: 5px 20%; /* Espaciado exterior */
+    font-size: 1vw; /* Tamaño de fuente en función del ancho de la ventana */
+    font-size: min(max(0.7rem, 1vw), 1rem); /* Tamaño de fuente adaptable */
+}
+
+/* Estilo del contenedor de información del tributo */
+#tribute-info {
+    text-align: left; /* Alinear texto a la izquierda */
+    width: 40%; /* Ancho del contenedor */
+    min-width: 600px; /* Ancho mínimo */
+    margin: auto; /* Centrar el contenedor */
+}
+
+/* Estilo del texto biográfico */
+.bio {
+    text-align: center; /* Centrar el texto */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Fuentes serif */
+    font-size: 18px; /* Tamaño de fuente */
+    margin: 30px 15%; /* Espaciado exterior */
+    line-height: 1.6; /* Interlineado */
+    background-color: #fff; /* Color de fondo blanco */
+    padding: 10px; /* Espaciado interior */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo del encabezado de la información del tributo */
+#tribute-info > h3 {
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilo de la primera cita */
+#tribute-info > .quote1 {
+    text-align: right; /* Alinear texto a la derecha */
+    margin: 30px 10px 30px 50%; /* Espaciado exterior */
+    max-width: 50%; /* Ancho máximo */
+    font-style: italic; /* Texto en cursiva */
+}
+
+/* Estilo de la segunda cita */
+#tribute-info > .quote2 {
+    text-align: left; /* Alinear texto a la izquierda */
+    margin: 30px 50% 30px 30px; /* Espaciado exterior */
+    max-width: 50%; /* Ancho máximo */
+    font-style: italic; /* Texto en cursiva */
+}
+
+/* Estilo de los elementos de lista */
+li {
+    padding: 10px; /* Espaciado interior */
+    list-style-type: circle; /* Tipo de viñeta */
+}
+
+/* Clase para texto en negrita */
+.bold {
+    font-weight: 600; /* Peso de fuente */
+}
+
+/* Media query para pantallas de 659px o menos */
+@media screen and (max-width: 659px) {
+    #tribute-info {
+        width: 80%; /* Ancho del contenedor */
+        min-width: 400px; /* Ancho mínimo */
+    }
+    .bio {
+        font-size: 16px; /* Tamaño de fuente */
+        margin: 30px 10%; /* Espaciado exterior */
+    }
+}
+
+/* Media query para pantallas de 450px o menos */
+@media screen and (max-width: 450px) {
+    #tribute-info {
+        width: 80%; /* Ancho del contenedor */
+        min-width: 200px; /* Ancho mínimo */
+    }
+    #tribute-info > h3 {
+        font-size: 14px; /* Tamaño de fuente */
+    }
+    p {
+        font-size: 12px; /* Tamaño de fuente */
+    }
+    #tribute-info > ul {
+        font-size: 12px; /* Tamaño de fuente */
+    }
+}
