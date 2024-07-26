@@ -4,7 +4,7 @@
 
 /* Estilo del contenedor principal */
 #main {
-    background-color: hsla(0, 2%, 92%, 0.856); /* Color de fondo con transparencia */
+    background-color: #F2F3F4; /* Color de fondo con transparencia */
     margin: 10px; /* Espacio exterior de 10px */
     display: flex; /* Usar flexbox para el diseño */
     flex-direction: column; /* Organizar elementos en columna */
@@ -34,12 +34,16 @@
     background-color: #fff; /* Color de fondo blanco */
     margin: 15px; /* Espaciado exterior */
     padding: 15px 0; /* Espaciado interior */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
 /* Estilo de la imagen */
 #image {
-    width: 90%; /* Ancho de la imagen */
+    width: 95%; /* Ancho de la imagen */
     height: auto; /* Altura automática */
+    border: 5px solid hsla(0, 2%, 92%, 0.856); /* Borde blanco alrededor de la imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor de la imagen */
+    border-radius: 10px; /* Bordes redondeados (opcional) */
 }
 
 /* Estilo del pie de foto de la imagen */
@@ -94,6 +98,10 @@
 li {
     padding: 10px; /* Espaciado interior */
     list-style-type: circle; /* Tipo de viñeta */
+}
+
+.last{
+    margin: 20px 10px;
 }
 
 /* Clase para texto en negrita */
