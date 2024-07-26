@@ -97,6 +97,7 @@
 /* Estilo de los elementos de lista */
 li {
     padding: 10px; /* Espaciado interior */
+    margin:0 0 0 -10px; /* Espaciado exterior */
     list-style-type: circle; /* Tipo de viñeta */
 }
 
