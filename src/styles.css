@@ -101,6 +101,9 @@ li {
     list-style-type: circle; /* Tipo de viñeta */
 }
 
+.letter{
+    margin: 0;
+}
 .last{
     margin: 20px 10px;
 }

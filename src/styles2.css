@@ -1,0 +1,25 @@
+body {
+    background-color: #f9f6f1;
+    font-family: 'Dancing Script', cursive;
+    color: #4b4b4b;
+    padding: 20px;
+    line-height: 1.6;
+}
+.letter {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    color: #333;
+}
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
